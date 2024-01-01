@@ -1,63 +1,234 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Cybersecurity Website</title>
-	<style>
-		body {
-			background-color: #f2f2f2;
-			font-family: Arial, sans-serif;
-			font-size: 16px;
-			line-height: 1.5;
-			margin: 0;
-			padding: 0;
-		}
-
-		.container {
-			margin: 0 auto;
-			max-width: 800px;
-			padding: 20px;
-		}
-
-		h1 {
-			color: #333;
-			font-size: 36px;
-			margin-bottom: 20px;
-			text-align: center;
-		}
-
-		p {
-			color: #666;
-			font-size: 18px;
-			line-height: 1.5;
-			margin-bottom: 20px;
-			text-align: justify;
-		}
-
-		.button {
-			background-color: #4CAF50;
-			border: none;
-			border-radius: 5px;
-			color: white;
-			cursor: pointer;
-			display: inline-block;
-			font-size: 16px;
-			margin-top: 20px;
-			padding: 10px 20px;
-			text-align: center;
-			text-decoration: none;
-			transition: background-color 0.3s ease;
-		}
-
-		.button:hover {
-			background-color: #3e8e41;
-		}
-	</style>
+  <title>Soldier0x00 - Cyber Security Portfolio</title>
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #222;
+      color: #fff;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .section {
+      padding: 20px;
+      border-bottom: 1px solid #333;
+    }
+    .section:last-child {
+      border-bottom: none;
+    }
+    .section p {
+      line-height: 1.5;
+    }
+    .section a {
+      color: #0f0;
+      text-decoration: none;
+    }
+    .section a:hover {
+      text-decoration: underline;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+    }
+    .logo img {
+      width: 100%;
+      height: 100%;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .skill {
+      width: 100px;
+      height: 100px;
+      background-color: #333;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .skill img {
+      width: 80%;
+      height: 80%;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .project {
+      background-color: #333;
+      padding: 10px;
+    }
+    .project img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .project h4 {
+      margin: 10px 0;
+    }
+    .project p {
+      font-size: 14px;
+    }
+    .project a {
+      display: block;
+      margin-top: 10px;
+      color: #0f0;
+      text-align: right;
+    }
+    .blogs {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .blog {
+      background-color: #333;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .blog img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+    .blog h4 {
+      margin: 0;
+    }
+    .blog p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+    .blog a {
+      display: block;
+      margin-top: 10px;
+      color: #0f0;
+      text-align: right;
+    }
+    .footer {
+      text-align: center;
+      font-size: 14px;
+    }
+    .footer a {
+      color: #0f0;
+    }
+  </style>
 </head>
 <body>
-	<div class="container">
-		<h1>Cybersecurity Website</h1>
-		<p>Welcome to my cybersecurity website! Here, you will find information about the latest cybersecurity trends and developments, as well as tips and tricks to help you stay safe online.</p>
-		<a href="#" class="button">Learn More</a>
-	</div>
+  <div class="container">
+    <div class="section">
+      <div class="logo">
+        <img src="logo.png" alt="Logo"> <!-- Replace logo.png with your own logo image -->
+      </div>
+      <h1>Soldier0x00</h1>
+      <h2>Cyber Security Enthusiast</h2>
+      <p>Hi, I'm Soldier0x00, a cyber security enthusiast who loves to learn and share about defensive security and intelligence. I have a passion for ethical hacking, malware analysis, threat hunting, and digital forensics. I also write blogs and resources on various topics related to cyber security. You can find them on my Medium profile and page.</p>
+      <p>If you want to contact me, you can reach me at soldier0x00@gmail.com or follow me on Twitter, LinkedIn, and GitHub.</p>
+      <p>Here are some of my skills, projects, and blogs that showcase my work and knowledge in cyber security.</p>
+    </div>
+    <div class="section">
+      <h3>Skills</h3>
+      <div class="skills">
+        <div class="skill">
+          <img src="python.png" alt="Python"> <!-- Replace python.png with your own skill image -->
+        </div>
+        <div class="skill">
+          <img src="linux.png" alt="Linux"> <!-- Replace linux.png with your own skill image -->
+        </div>
+        <div class="skill">
+          <img src="metasploit.png" alt="Metasploit"> <!-- Replace metasploit.png with your own skill image -->
+        </div>
+        <div class="skill">
+          <img src="wireshark.png" alt="Wireshark"> <!-- Replace wireshark.png with your own skill image -->
+        </div>
+        <div class="skill">
+          <img src="nmap.png" alt="Nmap"> <!-- Replace nmap.png with your own skill image -->
+        </div>
+        <div class="skill">
+          <img src="burp.png" alt="Burp Suite"> <!-- Replace burp.png with your own skill image -->
+        </div>
+        <!-- Add more skills as you like -->
+      </div>
+    </div>
+    <div class="section">
+      <h3>Projects</h3>
+      <div class="projects">
+        <div class="project">
+          <img src="project1.png" alt="Project 1"> <!-- Replace project1.png with your own project image -->
+          <h4>Project 1</h4>
+          <p>A brief description of your project 1.</p>
+          <a href="#">View Project</a> <!-- Replace # with your own project link -->
+        </div>
+        <div class="project">
+          <img src="project2.png" alt="Project 2"> <!-- Replace project2.png with your own project image -->
+          <h4>Project 2</h4>
+          <p>A brief description of your project 2.</p>
+          <a href="#">View Project</a> <!-- Replace # with your own project link -->
+        </div>
+        <div class="project">
+          <img src="project3.png" alt="Project 3"> <!-- Replace project3.png with your own project image -->
+          <h4>Project 3</h4>
+          <p>A brief description of your project 3.</p>
+          <a href="#">View Project</a> <!-- Replace # with your own project link -->
+        </div>
+        <!-- Add more projects as you like -->
+      </div>
+    </div>
+    <div class="section">
+      <h3>Blogs</h3>
+      <div class="blogs">
+        <div class="blog">
+          <img src="blog1.png" alt="Blog 1"> <!-- Replace blog1.png with your own blog image -->
+          <div class="blog-content">
+            <h4>Blog 1</h4>
+            <p>A brief summary of your blog 1.</p>
+            <a href="#">Read More</a> <!-- Replace # with your own blog link -->
+          </div>
+        </div>
+        <div class="blog">
+          <img src="blog2.png" alt="Blog 2"> <!-- Replace blog2.png with your own blog image -->
+          <div class="blog-content">
+            <h4>Blog 2</h4>
+            <p>A brief summary of your blog 2.</p>
+            <a href="#">Read More</a> <!-- Replace # with your own blog link -->
+          </div>
+        </div>
+        <div class="blog">
+          <img src="blog3.png" alt="Blog 3"> <!-- Replace blog3.png with your own blog image -->
+          <div class="blog-content">
+            <h4>Blog 3</h4>
+            <p>A brief summary of your blog 3.</p>
+            <a href="#">Read More</a> <!-- Replace # with your own blog link -->
+          </div>
+        </div>
+        <!-- Add more blogs as you like -->
+      </div>
+    </div>
+    <div class="section footer">
+      <p>© 2024 Soldier0x00. All rights reserved.</p>
+      <p>Powered by <a href="^1^">Webflow</a>, <a href="^2^">Free CSS</a>, <a href="^3^">TemplateMonster</a>, and <a href="^4^">Bing</a>.</p>
+    </div>
+  </div>
 </body>
 </html>
